@@ -1,0 +1,11 @@
+.registration{position:absolute; width: 90%; margin:auto; padding: 3%; top:4%; bottom:4%; background-color:#68b030;
+ opacity: 0.75; -moz-border-radius:6px; -webkit-border-radius:6px; border-radius:6px;}
+ .field>label{font-family:"Tahoma"; color: #ffffff; margin:8px;}
+ .textfield{font-size: 24px;}
+ .textinput{font-size: 16px;}
+ .inputfield{width:200px; height:30px; margin:6px; border:2px solid #71a14b; -moz-border-radius:3px; -webkit-border-radius:3px; border-radius:3px;}
+ .field{margin: 3% auto;}
+ .button_submit{display: block; background:#70e529; color: #ffffff; padding: 5px; width: 115px; -moz-border-radius:4px;
+  -webkit-border-radius:4px; border-radius:4px; margin:10px auto; border: #70cf29;}
+ .button_registration{display: block; background: #65db24; color:#ffffff; padding: 5px; width: 115px; -moz-border-radius:4px;
+  -webkit-border-radius:4px; border-radius:4px; margin:10px auto; border: #65b924;}

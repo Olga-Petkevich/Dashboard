@@ -1,0 +1,71 @@
+<!--<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name = "format-detection" content = "telephone=no"/>
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width;" />
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <title>Notebook</title>
+    </head>
+    <body onload="init()">
+
+        <div data-class="page">
+        <h1>Welcome to Notebook</h1>
+
+        <button id="logInBtn" data-url="login.html">Log In</button>
+        <button id="regBtn" data-url="register.html">Register</button>
+
+        </div>
+
+        <script type="text/javascript" src="cordova-2.3.0.js"></script>
+        <script type="text/javascript" src="js/parse-1.1.6.min.js"></script>
+        <script type="text/javascript" src="js/zepto.min.js"></script>
+        <script type="text/javascript" src="js/cylon.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+    </body>
+</html>-->
+
+
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Log in</title>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="description" content="PhoneGap" />
+	<meta name="keywords" content="dashboard mail vk university" />
+	<meta name="viewport" content="width = device-width" />
+	<script type="text/javascript" charset="utf-8" src="cordova-2.3.0.js"></script>
+	<link rel="stylesheet" type="text/css" href="style/style.css" />
+	<link rel="stylesheet" type="text/css" href="style/login.css" />
+	
+	<script type="text/javascript" src="js/jquery-1.9.1.js"></script>
+	<!--<script type="text/javascript" src="js/jquery-1.9.0.js"></script>-->
+	<!--<script type="text/javascript" src="js/parse-1.2.0.min.js"></script>-->
+	<!--<script type="text/javascript" src="js/login.js"></script>-->
+	
+	<script type="text/javascript" src="js/parse-1.1.6.min.js"></script>
+    <!--<script type="text/javascript" src="js/zepto.min.js"></script>
+    <script type="text/javascript" src="js/cylon.js"></script>-->
+    <script type="text/javascript" src="js/index.js"></script>
+</head>
+<body onload="init()">
+	<section class="registration">
+		<form class="form" id="form" method="post">
+			<div class="field">
+				<label for="Login" class="textfield">Логин</label>
+				<input class="inputfield" id="login" name="Login" type="text"/>
+			</div>
+			<div class="field">
+				<label for="Password" class="textfield">Пароль</label>
+				<input class="inputfield" id="password" name="Password" type="password"/>
+			</div>
+			<div class="field">
+				<input class="textfield" name="CheckBox" type="checkbox" />
+				<label for="CheckBox" class="textinput">Запомнить меня</label>				
+			</div>
+			<button type="button" id="submitButton" name="Войти" class="button_submit">Войти</button>
+			<button type="button" name="Регистрация" class="button_registration" onclick="window.location='registration.html';">Регистрация</button>
+		</form>
+	</section>
+</body>
+</html>

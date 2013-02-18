@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Registration</title>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="description" content="PhoneGap" />
+	<meta name="keywords" content="dashboard mail vk university" />
+	<meta name="viewport" content="width = device-width" />
+	<script type="text/javascript" charset="utf-8" src="cordova-1.9.0.js"></script>
+	<link rel="stylesheet" type="text/css" href="style/style.css" />
+	<link rel="stylesheet" type="text/css" href="style/registration.css"/>
+	<script type="text/javascript" src="js/parse-1.1.6.min.js"></script>
+	<script type="text/javascript" src="js/jquery-1.9.1.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+	
+</head>
+<body>
+	<section class="registration">
+		<h1>Регистрация</h1>
+		<form class="form" >
+			<div class="field" id="reg_form">
+				<label for="Login" class="textfield">Имя</label>
+				<input class="inputfield" id="firstName" name="First_name" type="text"/>
+			</div>
+			<div class="field">
+				<label for="Login" class="textfield">Фамилия</label>
+				<input class="inputfield" id="lastName" name="Last_name" type="text"/>
+			</div>
+			<div class="field">
+				<label for="Login" class="textfield">Логин</label>
+				<input class="inputfield" id="registrationLogin" name="Login" type="text"/>
+			</div>
+			<div class="field">
+				<label for="Password" class="textfield">Пароль</label>
+				<input class="inputfield" id="registrationPassword" name="Password" type="password"/>
+			</div>
+			<div class="field">
+				<label for="Password" class="textfield">Подтвердить пароль</label>
+				<input class="inputfield" id="confirmPassword" name="Password" type="password"/>
+			</div>
+
+			<div class="field">
+				<label for="Email" class="textfield">E-mail</label>
+				<input class="inputfield" id="email" name="e-mail" type="email"/>
+			</div>
+			<div class="field">
+				<label for="Group" class="textfield">Группа в контакте</label>
+				<input class="inputfield" id="group" name="Group_vk" type="url"/>
+			</div>
+			<button type="button" name="Регистрация" class="button_registration" id="registrationButton">Зарегистрироваться</button>
+		</form>
+	</section>
+</body>
+</html>
